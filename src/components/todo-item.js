@@ -8,8 +8,9 @@ class TodoItem extends React.Component{
             {
                 backgroundColor: 'gray',
                 textDecoration: 'line-through',
-                margin: 5
-            } : {};
+                margin: 5,
+                width: 300,
+            } : {width: 300};
         return (
             <ThemeContext.Consumer>
                 {
